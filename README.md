@@ -1,9 +1,9 @@
 <div align="center">
   <img src="assets/logo.jpg" alt="PicoClaw" width="512">
 
-  <h1>PicoClaw: Ultra-Efficient AI Assistant in Go</h1>
+  <h1>PicoClaw: Assistente de IA Ultra-Eficiente em Go</h1>
 
-  <h3>$10 Hardware · 10MB RAM · 1s Boot · 皮皮虾，我们走！</h3>
+  <h3>Hardware de $10 · 10MB RAM · 1s de Boot · 皮皮虾，我们走！</h3>
 
   <p>
     <img src="https://img.shields.io/badge/Go-1.21+-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
@@ -14,14 +14,16 @@
     <a href="https://x.com/SipeedIO"><img src="https://img.shields.io/badge/X_(Twitter)-SipeedIO-black?style=flat&logo=x&logoColor=white" alt="Twitter"></a>
   </p>
 
- [中文](README.zh.md) | [日本語](README.ja.md) | **English**
+ [中文](README.zh.md) | [日本語](README.ja.md) | [English](README.md) | **Português**
 </div>
 
 ---
 
-🦐 PicoClaw is an ultra-lightweight personal AI Assistant inspired by [nanobot](https://github.com/HKUDS/nanobot), refactored from the ground up in Go through a self-bootstrapping process, where the AI agent itself drove the entire architectural migration and code optimization.
+## 🚀 TermuxClaw: Voando Baixo no Android
 
-⚡️ Runs on $10 hardware with <10MB RAM: That's 99% less memory than OpenClaw and 98% cheaper than a Mac mini!
+🦐 **PicoClaw** é um Assistente de IA pessoal ultra-leve inspirado no [nanobot](https://github.com/HKUDS/nanobot), refatorado do zero em Go através de um processo de auto-bootstrapping, onde o próprio agente de IA conduziu toda a migração arquitetural e otimização de código.
+
+⚡️ Roda em hardware de $10 com <10MB de RAM: Isso é 99% menos memória que o OpenClaw e 98% mais barato que um Mac mini!
 
 <table align="center">
   <tr align="center">
@@ -39,50 +41,50 @@
 </table>
 
 > [!CAUTION]
-> **🚨 SECURITY & OFFICIAL CHANNELS / 安全声明**
+> **🚨 SEGURANÇA E CANAIS OFICIAIS**
 >
-> * **NO CRYPTO:** PicoClaw has **NO** official token/coin. All claims on `pump.fun` or other trading platforms are **SCAMS**.
-> * **OFFICIAL DOMAIN:** The **ONLY** official website is **[picoclaw.io](https://picoclaw.io)**, and company website is **[sipeed.com](https://sipeed.com)**
-> * **Warning:** Many `.ai/.org/.com/.net/...` domains are registered by third parties.
-> * **Warning:** picoclaw is in early development now and may have unresolved network security issues. Do not deploy to production environments before the v1.0 release.
+> * **SEM CRIPTO:** PicoClaw **NÃO** possui token/moeda oficial. Todas as alegações em `pump.fun` ou outras plataformas de negociação são **GOLPES**.
+> * **DOMÍNIO OFICIAL:** O **ÚNICO** site oficial é **[picoclaw.io](https://picoclaw.io)**, e o site da empresa é **[sipeed.com](https://sipeed.com)**
+> * **Aviso:** Muitos domínios `.ai/.org/.com/.net/...` estão registrados por terceiros.
+> * **Aviso:** picoclaw está em desenvolvimento inicial e pode ter problemas de segurança de rede não resolvidos. Não implante em ambientes de produção antes do lançamento v1.0.
 
-## 📢 News
+## 📢 Notícias
 
-2026-02-13 🎉 PicoClaw hit 5000 stars in 4days! Thank you for the community! There are so many PRs&issues come in (during Chinese New Year holidays), we are finalizing the Project Roadmap and setting up the Developer Group to accelerate PicoClaw's development.  
-🚀 Call to Action: Please submit your feature requests in GitHub Discussions. We will review and prioritize them during our upcoming weekly meeting.
+2026-02-13 🎉 PicoClaw atingiu 5000 estrelas em 4 dias! Obrigado à comunidade! Há tantos PRs e issues chegando (durante os feriados do Ano Novo Chinês), estamos finalizando o Roadmap do Projeto e configurando o Grupo de Desenvolvedores para acelerar o desenvolvimento do PicoClaw.  
+🚀 Chamada para Ação: Por favor, envie suas solicitações de recursos no GitHub Discussions. Vamos revisá-las e priorizá-las durante nossa próxima reunião semanal.
 
-2026-02-09 🎉 PicoClaw Launched! Built in 1 day to bring AI Agents to $10 hardware with <10MB RAM. 🦐 PicoClaw，Let's Go！
+2026-02-09 🎉 PicoClaw Lançado! Construído em 1 dia para trazer Agentes de IA para hardware de $10 com <10MB de RAM. 🦐 PicoClaw, Vamos Lá！
 
-## ✨ Features
+## ✨ Recursos
 
-🪶 **Ultra-Lightweight**: <10MB Memory footprint — 99% smaller than Clawdbot - core functionality.
+🪶 **Ultra-Leve**: Pegada de memória <10MB — 99% menor que Clawdbot - funcionalidade principal.
 
-💰 **Minimal Cost**: Efficient enough to run on $10 Hardware — 98% cheaper than a Mac mini.
+💰 **Custo Mínimo**: Eficiente o suficiente para rodar em Hardware de $10 — 98% mais barato que um Mac mini.
 
-⚡️ **Lightning Fast**: 400X Faster startup time, boot in 1 second even in 0.6GHz single core.
+⚡️ **Extremamente Rápido**: Tempo de inicialização 400X mais rápido, boot em 1 segundo mesmo em núcleo único de 0.6GHz.
 
-🌍 **True Portability**: Single self-contained binary across RISC-V, ARM, and x86, One-click to Go!
+🌍 **Verdadeira Portabilidade**: Binário único autocontido em RISC-V, ARM e x86, Um clique para Ir!
 
-🤖 **AI-Bootstrapped**: Autonomous Go-native implementation — 95% Agent-generated core with human-in-the-loop refinement.
+🤖 **Bootstrapped por IA**: Implementação nativa em Go autônoma — 95% do núcleo gerado por Agente com refinamento humano no loop.
 
 |                               | OpenClaw      | NanoBot                  | **PicoClaw**                              |
 | ----------------------------- | ------------- | ------------------------ | ----------------------------------------- |
-| **Language**                  | TypeScript    | Python                   | **Go**                                    |
+| **Linguagem**                 | TypeScript    | Python                   | **Go**                                    |
 | **RAM**                       | >1GB          | >100MB                   | **< 10MB**                                |
-| **Startup**</br>(0.8GHz core) | >500s         | >30s                     | **<1s**                                   |
-| **Cost**                      | Mac Mini 599$ | Most Linux SBC </br>~50$ | **Any Linux Board**</br>**As low as 10$** |
+| **Inicialização**</br>(núcleo 0.8GHz) | >500s         | >30s                     | **<1s**                                   |
+| **Custo**                     | Mac Mini 599$ | Maioria Linux SBC </br>~50$ | **Qualquer Placa Linux**</br>**A partir de 10$** |
 
 <img src="assets/compare.jpg" alt="PicoClaw" width="512">
 
-## 🦾 Demonstration
+## 🦾 Demonstração
 
-### 🛠️ Standard Assistant Workflows
+### 🛠️ Fluxos de Trabalho de Assistente Padrão
 
 <table align="center">
   <tr align="center">
-    <th><p align="center">🧩 Full-Stack Engineer</p></th>
-    <th><p align="center">🗂️ Logging & Planning Management</p></th>
-    <th><p align="center">🔎 Web Search & Learning</p></th>
+    <th><p align="center">🧩 Engenheiro Full-Stack</p></th>
+    <th><p align="center">🗂️ Gerenciamento de Logs e Planejamento</p></th>
+    <th><p align="center">🔎 Busca Web e Aprendizado</p></th>
   </tr>
   <tr>
     <td align="center"><p align="center"><img src="assets/picoclaw_code.gif" width="240" height="180"></p></td>
@@ -90,31 +92,31 @@
     <td align="center"><p align="center"><img src="assets/picoclaw_search.gif" width="240" height="180"></p></td>
   </tr>
   <tr>
-    <td align="center">Develop • Deploy • Scale</td>
-    <td align="center">Schedule • Automate • Memory</td>
-    <td align="center">Discovery • Insights • Trends</td>
+    <td align="center">Desenvolver • Implantar • Escalar</td>
+    <td align="center">Agendar • Automatizar • Memória</td>
+    <td align="center">Descoberta • Insights • Tendências</td>
   </tr>
 </table>
 
-### 🐜 Innovative Low-Footprint Deploy
+### 🐜 Implantação Inovadora de Baixo Consumo
 
-PicoClaw can be deployed on almost any Linux device!
+PicoClaw pode ser implantado em quase qualquer dispositivo Linux!
 
-- $9.9 [LicheeRV-Nano](https://www.aliexpress.com/item/1005006519668532.html) E(Ethernet) or W(WiFi6) version, for Minimal Home Assistant
-- $30~50 [NanoKVM](https://www.aliexpress.com/item/1005007369816019.html), or $100 [NanoKVM-Pro](https://www.aliexpress.com/item/1005010048471263.html) for Automated Server Maintenance
-- $50 [MaixCAM](https://www.aliexpress.com/item/1005008053333693.html) or $100 [MaixCAM2](https://www.kickstarter.com/projects/zepan/maixcam2-build-your-next-gen-4k-ai-camera) for Smart Monitoring
+- $9.9 [LicheeRV-Nano](https://www.aliexpress.com/item/1005006519668532.html) versão E(Ethernet) ou W(WiFi6), para Assistente Doméstico Mínimo
+- $30~50 [NanoKVM](https://www.aliexpress.com/item/1005007369816019.html), ou $100 [NanoKVM-Pro](https://www.aliexpress.com/item/1005010048471263.html) para Manutenção Automatizada de Servidor
+- $50 [MaixCAM](https://www.aliexpress.com/item/1005008053333693.html) ou $100 [MaixCAM2](https://www.kickstarter.com/projects/zepan/maixcam2-build-your-next-gen-4k-ai-camera) para Monitoramento Inteligente
 
 <https://private-user-images.githubusercontent.com/83055338/547056448-e7b031ff-d6f5-4468-bcca-5726b6fecb5c.mp4>
 
-🌟 More Deployment Cases Await！
+🌟 Mais Casos de Implantação Aguardam！
 
-## 📦 Install
+## 📦 Instalação
 
-### Install with precompiled binary
+### Instalar com binário pré-compilado
 
-Download the firmware for your platform from the [release](https://github.com/sipeed/picoclaw/releases) page.
+Baixe o firmware para sua plataforma na página de [releases](https://github.com/sipeed/picoclaw/releases).
 
-### Install from source (latest features, recommended for development)
+### Instalar a partir do código-fonte (recursos mais recentes, recomendado para desenvolvimento)
 
 ```bash
 git clone https://github.com/sipeed/picoclaw.git
@@ -122,70 +124,70 @@ git clone https://github.com/sipeed/picoclaw.git
 cd picoclaw
 make deps
 
-# Build, no need to install
+# Compilar, sem necessidade de instalar
 make build
 
-# Build for multiple platforms
+# Compilar para múltiplas plataformas
 make build-all
 
-# Build And Install
+# Compilar E Instalar
 make install
 ```
 
 ## 🐳 Docker Compose
 
-You can also run PicoClaw using Docker Compose without installing anything locally.
+Você também pode executar o PicoClaw usando Docker Compose sem instalar nada localmente.
 
 ```bash
-# 1. Clone this repo
+# 1. Clone este repositório
 git clone https://github.com/sipeed/picoclaw.git
 cd picoclaw
 
-# 2. Set your API keys
+# 2. Configure suas chaves de API
 cp config/config.example.json config/config.json
-vim config/config.json      # Set DISCORD_BOT_TOKEN, API keys, etc.
+vim config/config.json      # Configure DISCORD_BOT_TOKEN, chaves de API, etc.
 
-# 3. Build & Start
+# 3. Compilar e Iniciar
 docker compose --profile gateway up -d
 
-# 4. Check logs
+# 4. Verificar logs
 docker compose logs -f picoclaw-gateway
 
-# 5. Stop
+# 5. Parar
 docker compose --profile gateway down
 ```
 
-### Agent Mode (One-shot)
+### Modo Agente (One-shot)
 
 ```bash
-# Ask a question
-docker compose run --rm picoclaw-agent -m "What is 2+2?"
+# Fazer uma pergunta
+docker compose run --rm picoclaw-agent -m "Quanto é 2+2?"
 
-# Interactive mode
+# Modo interativo
 docker compose run --rm picoclaw-agent
 ```
 
-### Rebuild
+### Recompilar
 
 ```bash
 docker compose --profile gateway build --no-cache
 docker compose --profile gateway up -d
 ```
 
-### 🚀 Quick Start
+### 🚀 Início Rápido
 
 > [!TIP]
-> Set your API key in `~/.picoclaw/config.json`.
-> Get API keys: [OpenRouter](https://openrouter.ai/keys) (LLM) · [Zhipu](https://open.bigmodel.cn/usercenter/proj-mgmt/apikeys) (LLM)
-> Web search is **optional** - get free [Brave Search API](https://brave.com/search/api) (2000 free queries/month) or use built-in auto fallback.
+> Configure sua chave de API em `~/.picoclaw/config.json`.
+> Obtenha chaves de API: [OpenRouter](https://openrouter.ai/keys) (LLM) · [Zhipu](https://open.bigmodel.cn/usercenter/proj-mgmt/apikeys) (LLM)
+> Busca web é **opcional** - obtenha [Brave Search API](https://brave.com/search/api) grátis (2000 consultas grátis/mês) ou use o fallback automático integrado.
 
-**1. Initialize**
+**1. Inicializar**
 
 ```bash
 picoclaw onboard
 ```
 
-**2. Configure** (`~/.picoclaw/config.json`)
+**2. Configurar** (`~/.picoclaw/config.json`)
 
 ```json
 {
@@ -208,7 +210,7 @@ picoclaw onboard
     "web": {
       "brave": {
         "enabled": false,
-        "api_key": "YOUR_BRAVE_API_KEY",
+        "api_key": "SUA_CHAVE_API_BRAVE",
         "max_results": 5
       },
       "duckduckgo": {
@@ -220,61 +222,61 @@ picoclaw onboard
 }
 ```
 
-**3. Get API Keys**
+**3. Obter Chaves de API**
 
-* **LLM Provider**: [OpenRouter](https://openrouter.ai/keys) · [Zhipu](https://open.bigmodel.cn/usercenter/proj-mgmt/apikeys) · [Anthropic](https://console.anthropic.com) · [OpenAI](https://platform.openai.com) · [Gemini](https://aistudio.google.com/api-keys)
-* **Web Search** (optional): [Brave Search](https://brave.com/search/api) - Free tier available (2000 requests/month)
+* **Provedor de LLM**: [OpenRouter](https://openrouter.ai/keys) · [Zhipu](https://open.bigmodel.cn/usercenter/proj-mgmt/apikeys) · [Anthropic](https://console.anthropic.com) · [OpenAI](https://platform.openai.com) · [Gemini](https://aistudio.google.com/api-keys)
+* **Busca Web** (opcional): [Brave Search](https://brave.com/search/api) - Nível gratuito disponível (2000 requisições/mês)
 
-> **Note**: See `config.example.json` for a complete configuration template.
+> **Nota**: Veja `config.example.json` para um template de configuração completo.
 
-**4. Chat**
+**4. Conversar**
 
 ```bash
-picoclaw agent -m "What is 2+2?"
+picoclaw agent -m "Quanto é 2+2?"
 ```
 
-That's it! You have a working AI assistant in 2 minutes.
+Pronto! Você tem um assistente de IA funcionando em 2 minutos.
 
 ---
 
-## 💬 Chat Apps
+## 💬 Aplicativos de Chat
 
-Talk to your picoclaw through Telegram, Discord, DingTalk, or LINE
+Converse com seu picoclaw através do Telegram, Discord, DingTalk ou LINE
 
-| Channel      | Setup                              |
+| Canal        | Configuração                       |
 | ------------ | ---------------------------------- |
-| **Telegram** | Easy (just a token)                |
-| **Discord**  | Easy (bot token + intents)         |
-| **QQ**       | Easy (AppID + AppSecret)           |
-| **DingTalk** | Medium (app credentials)           |
-| **LINE**     | Medium (credentials + webhook URL) |
+| **Telegram** | Fácil (apenas um token)            |
+| **Discord**  | Fácil (token do bot + intents)     |
+| **QQ**       | Fácil (AppID + AppSecret)          |
+| **DingTalk** | Médio (credenciais do app)         |
+| **LINE**     | Médio (credenciais + URL webhook)  |
 
 <details>
-<summary><b>Telegram</b> (Recommended)</summary>
+<summary><b>Telegram</b> (Recomendado)</summary>
 
-**1. Create a bot**
+**1. Criar um bot**
 
-* Open Telegram, search `@BotFather`
-* Send `/newbot`, follow prompts
-* Copy the token
+* Abra o Telegram, procure `@BotFather`
+* Envie `/newbot`, siga as instruções
+* Copie o token
 
-**2. Configure**
+**2. Configurar**
 
 ```json
 {
   "channels": {
     "telegram": {
       "enabled": true,
-      "token": "YOUR_BOT_TOKEN",
-      "allowFrom": ["YOUR_USER_ID"]
+      "token": "SEU_TOKEN_DO_BOT",
+      "allowFrom": ["SEU_ID_DE_USUARIO"]
     }
   }
 }
 ```
 
-> Get your user ID from `@userinfobot` on Telegram.
+> Obtenha seu ID de usuário do `@userinfobot` no Telegram.
 
-**3. Run**
+**3. Executar**
 
 ```bash
 picoclaw gateway
@@ -285,44 +287,44 @@ picoclaw gateway
 <details>
 <summary><b>Discord</b></summary>
 
-**1. Create a bot**
+**1. Criar um bot**
 
-* Go to <https://discord.com/developers/applications>
-* Create an application → Bot → Add Bot
-* Copy the bot token
+* Vá para <https://discord.com/developers/applications>
+* Crie uma aplicação → Bot → Adicionar Bot
+* Copie o token do bot
 
-**2. Enable intents**
+**2. Habilitar intents**
 
-* In the Bot settings, enable **MESSAGE CONTENT INTENT**
-* (Optional) Enable **SERVER MEMBERS INTENT** if you plan to use allow lists based on member data
+* Nas configurações do Bot, habilite **MESSAGE CONTENT INTENT**
+* (Opcional) Habilite **SERVER MEMBERS INTENT** se você planeja usar listas de permissão baseadas em dados de membros
 
-**3. Get your User ID**
+**3. Obter seu ID de Usuário**
 
-* Discord Settings → Advanced → enable **Developer Mode**
-* Right-click your avatar → **Copy User ID**
+* Configurações do Discord → Avançado → habilite **Modo Desenvolvedor**
+* Clique com o botão direito no seu avatar → **Copiar ID do Usuário**
 
-**4. Configure**
+**4. Configurar**
 
 ```json
 {
   "channels": {
     "discord": {
       "enabled": true,
-      "token": "YOUR_BOT_TOKEN",
-      "allowFrom": ["YOUR_USER_ID"]
+      "token": "SEU_TOKEN_DO_BOT",
+      "allow_from": ["SEU_ID_DE_USUARIO"]
     }
   }
 }
 ```
 
-**5. Invite the bot**
+**5. Convidar o bot para seu servidor**
 
-* OAuth2 → URL Generator
-* Scopes: `bot`
-* Bot Permissions: `Send Messages`, `Read Message History`
-* Open the generated invite URL and add the bot to your server
+* No painel de desenvolvedores, vá para OAuth2 → URL Generator
+* Selecione escopos: `bot`, `applications.commands`
+* Selecione permissões do bot: `Read Messages/View Channels`, `Send Messages`, `Read Message History`
+* Copie a URL gerada e abra-a no navegador para adicionar o bot ao seu servidor
 
-**6. Run**
+**6. Executar**
 
 ```bash
 picoclaw gateway
@@ -333,29 +335,28 @@ picoclaw gateway
 <details>
 <summary><b>QQ</b></summary>
 
-**1. Create a bot**
+**1. Criar um bot QQ Open Platform**
 
-- Go to [QQ Open Platform](https://q.qq.com/#)
-- Create an application → Get **AppID** and **AppSecret**
+* Vá para [QQ Open Platform](https://q.qq.com/)
+* Crie uma aplicação de bot
+* Obtenha `AppID` e `AppSecret`
 
-**2. Configure**
+**2. Configurar**
 
 ```json
 {
   "channels": {
     "qq": {
       "enabled": true,
-      "app_id": "YOUR_APP_ID",
-      "app_secret": "YOUR_APP_SECRET",
+      "app_id": "SEU_APP_ID",
+      "app_secret": "SEU_APP_SECRET",
       "allow_from": []
     }
   }
 }
 ```
 
-> Set `allow_from` to empty to allow all users, or specify QQ numbers to restrict access.
-
-**3. Run**
+**3. Executar**
 
 ```bash
 picoclaw gateway
@@ -366,30 +367,28 @@ picoclaw gateway
 <details>
 <summary><b>DingTalk</b></summary>
 
-**1. Create a bot**
+**1. Criar um bot DingTalk**
 
-* Go to [Open Platform](https://open.dingtalk.com/)
-* Create an internal app
-* Copy Client ID and Client Secret
+* Abra o DingTalk, vá para Configurações de Grupo → Robôs Inteligentes
+* Adicione um robô personalizado
+* Obtenha o webhook e o segredo
 
-**2. Configure**
+**2. Configurar**
 
 ```json
 {
   "channels": {
     "dingtalk": {
       "enabled": true,
-      "client_id": "YOUR_CLIENT_ID",
-      "client_secret": "YOUR_CLIENT_SECRET",
+      "app_key": "SUA_CHAVE_DO_APP",
+      "app_secret": "SEU_SEGREDO_DO_APP",
       "allow_from": []
     }
   }
 }
 ```
 
-> Set `allow_from` to empty to allow all users, or specify QQ numbers to restrict access.
-
-**3. Run**
+**3. Executar**
 
 ```bash
 picoclaw gateway
@@ -400,87 +399,75 @@ picoclaw gateway
 <details>
 <summary><b>LINE</b></summary>
 
-**1. Create a LINE Official Account**
+**1. Criar uma Conta Oficial LINE**
 
-- Go to [LINE Developers Console](https://developers.line.biz/)
-- Create a provider → Create a Messaging API channel
-- Copy **Channel Secret** and **Channel Access Token**
+* Vá para [LINE Developers Console](https://developers.line.biz/)
+* Crie um novo provedor e canal (Messaging API)
+* Obtenha `Channel Secret` e `Channel Access Token`
 
-**2. Configure**
+**2. Configurar**
 
 ```json
 {
   "channels": {
     "line": {
       "enabled": true,
-      "channel_secret": "YOUR_CHANNEL_SECRET",
-      "channel_access_token": "YOUR_CHANNEL_ACCESS_TOKEN",
-      "webhook_host": "0.0.0.0",
-      "webhook_port": 18791,
-      "webhook_path": "/webhook/line",
+      "channel_secret": "SEU_CHANNEL_SECRET",
+      "channel_access_token": "SEU_CHANNEL_ACCESS_TOKEN",
+      "webhook_url": "https://seu-dominio.com/webhook/line",
       "allow_from": []
     }
   }
 }
 ```
 
-**3. Set up Webhook URL**
+**3. Configurar Webhook**
 
-LINE requires HTTPS for webhooks. Use a reverse proxy or tunnel:
+* No LINE Developers Console, configure a URL do webhook para `https://seu-dominio.com/webhook/line`
+* Habilite webhooks
 
-```bash
-# Example with ngrok
-ngrok http 18791
-```
-
-Then set the Webhook URL in LINE Developers Console to `https://your-domain/webhook/line` and enable **Use webhook**.
-
-**4. Run**
+**4. Executar**
 
 ```bash
 picoclaw gateway
 ```
 
-> In group chats, the bot responds only when @mentioned. Replies quote the original message.
-
-> **Docker Compose**: Add `ports: ["18791:18791"]` to the `picoclaw-gateway` service to expose the webhook port.
-
 </details>
 
-## <img src="assets/clawdchat-icon.png" width="24" height="24" alt="ClawdChat"> Join the Agent Social Network
+### 🌐 Junte-se à Rede Social de Agentes
 
-Connect Picoclaw to the Agent Social Network simply by sending a single message via the CLI or any integrated Chat App.
+Conecte o Picoclaw à Rede Social de Agentes simplesmente enviando uma única mensagem via CLI ou qualquer Aplicativo de Chat integrado.
 
-**Read `https://clawdchat.ai/skill.md` and follow the instructions to join [ClawdChat.ai](https://clawdchat.ai)**
+Leia https://clawdchat.ai/skill.md e siga as instruções para se juntar ao ClawdChat.ai
 
-## ⚙️ Configuration
+## ⚙️ Configuração
 
-Config file: `~/.picoclaw/config.json`
+Arquivo de configuração: `~/.picoclaw/config.json`
 
-### Workspace Layout
+### Layout do Workspace
 
-PicoClaw stores data in your configured workspace (default: `~/.picoclaw/workspace`):
+PicoClaw armazena dados no seu workspace configurado (padrão: `~/.picoclaw/workspace`):
 
 ```
 ~/.picoclaw/workspace/
-├── sessions/          # Conversation sessions and history
-├── memory/           # Long-term memory (MEMORY.md)
-├── state/            # Persistent state (last channel, etc.)
-├── cron/             # Scheduled jobs database
-├── skills/           # Custom skills
-├── AGENTS.md         # Agent behavior guide
-├── HEARTBEAT.md      # Periodic task prompts (checked every 30 min)
-├── IDENTITY.md       # Agent identity
-├── SOUL.md           # Agent soul
-├── TOOLS.md          # Tool descriptions
-└── USER.md           # User preferences
+├── sessions/          # Sessões de conversação e histórico
+├── memory/           # Memória de longo prazo (MEMORY.md)
+├── state/            # Estado persistente (último canal, etc.)
+├── cron/             # Banco de dados de tarefas agendadas
+├── skills/           # Habilidades personalizadas
+├── AGENTS.md         # Guia de comportamento do agente
+├── HEARTBEAT.md      # Prompts de tarefas periódicas (verificados a cada 30 min)
+├── IDENTITY.md       # Identidade do agente
+├── SOUL.md           # Alma do agente
+├── TOOLS.md          # Descrições de ferramentas
+└── USER.md           # Preferências do usuário
 ```
 
-### 🔒 Security Sandbox
+### 🔒 Sandbox de Segurança
 
-PicoClaw runs in a sandboxed environment by default. The agent can only access files and execute commands within the configured workspace.
+PicoClaw roda em um ambiente sandboxed por padrão. O agente só pode acessar arquivos e executar comandos dentro do workspace configurado.
 
-#### Default Configuration
+#### Configuração Padrão
 
 ```json
 {
@@ -493,36 +480,36 @@ PicoClaw runs in a sandboxed environment by default. The agent can only access f
 }
 ```
 
-| Option | Default | Description |
+| Opção | Padrão | Descrição |
 |--------|---------|-------------|
-| `workspace` | `~/.picoclaw/workspace` | Working directory for the agent |
-| `restrict_to_workspace` | `true` | Restrict file/command access to workspace |
+| `workspace` | `~/.picoclaw/workspace` | Diretório de trabalho para o agente |
+| `restrict_to_workspace` | `true` | Restringir acesso a arquivos/comandos ao workspace |
 
-#### Protected Tools
+#### Ferramentas Protegidas
 
-When `restrict_to_workspace: true`, the following tools are sandboxed:
+Quando `restrict_to_workspace: true`, as seguintes ferramentas são sandboxed:
 
-| Tool | Function | Restriction |
+| Ferramenta | Função | Restrição |
 |------|----------|-------------|
-| `read_file` | Read files | Only files within workspace |
-| `write_file` | Write files | Only files within workspace |
-| `list_dir` | List directories | Only directories within workspace |
-| `edit_file` | Edit files | Only files within workspace |
-| `append_file` | Append to files | Only files within workspace |
-| `exec` | Execute commands | Command paths must be within workspace |
+| `read_file` | Ler arquivos | Apenas arquivos dentro do workspace |
+| `write_file` | Escrever arquivos | Apenas arquivos dentro do workspace |
+| `list_dir` | Listar diretórios | Apenas diretórios dentro do workspace |
+| `edit_file` | Editar arquivos | Apenas diretórios dentro do workspace |
+| `append_file` | Anexar a arquivos | Apenas arquivos dentro do workspace |
+| `exec` | Executar comandos | Caminhos de comando devem estar dentro do workspace |
 
-#### Additional Exec Protection
+#### Proteção Adicional de Exec
 
-Even with `restrict_to_workspace: false`, the `exec` tool blocks these dangerous commands:
+Mesmo com `restrict_to_workspace: false`, a ferramenta `exec` bloqueia estes comandos perigosos:
 
-* `rm -rf`, `del /f`, `rmdir /s` — Bulk deletion
-* `format`, `mkfs`, `diskpart` — Disk formatting
-* `dd if=` — Disk imaging
-* Writing to `/dev/sd[a-z]` — Direct disk writes
-* `shutdown`, `reboot`, `poweroff` — System shutdown
+* `rm -rf`, `del /f`, `rmdir /s` — Exclusão em massa
+* `format`, `mkfs`, `diskpart` — Formatação de disco
+* `dd if=` — Imagem de disco
+* Escrita em `/dev/sd[a-z]` — Escritas diretas em disco
+* `shutdown`, `reboot`, `poweroff` — Desligamento do sistema
 * Fork bomb `:(){ :|:& };:`
 
-#### Error Examples
+#### Exemplos de Erro
 
 ```
 [ERROR] tool: Tool execution failed
@@ -534,11 +521,11 @@ Even with `restrict_to_workspace: false`, the `exec` tool blocks these dangerous
 {tool=exec, error=Command blocked by safety guard (dangerous pattern detected)}
 ```
 
-#### Disabling Restrictions (Security Risk)
+#### Desabilitando Restrições (Risco de Segurança)
 
-If you need the agent to access paths outside the workspace:
+Se você precisar que o agente acesse caminhos fora do workspace:
 
-**Method 1: Config file**
+**Método 1: Arquivo de configuração**
 
 ```json
 {
@@ -550,83 +537,83 @@ If you need the agent to access paths outside the workspace:
 }
 ```
 
-**Method 2: Environment variable**
+**Método 2: Variável de ambiente**
 
 ```bash
 export PICOCLAW_AGENTS_DEFAULTS_RESTRICT_TO_WORKSPACE=false
 ```
 
-> ⚠️ **Warning**: Disabling this restriction allows the agent to access any path on your system. Use with caution in controlled environments only.
+> ⚠️ **Aviso**: Desabilitar esta restrição permite que o agente acesse qualquer caminho no seu sistema. Use com cautela apenas em ambientes controlados.
 
-#### Security Boundary Consistency
+#### Consistência de Fronteira de Segurança
 
-The `restrict_to_workspace` setting applies consistently across all execution paths:
+A configuração `restrict_to_workspace` se aplica consistentemente em todos os caminhos de execução:
 
-| Execution Path | Security Boundary |
+| Caminho de Execução | Fronteira de Segurança |
 |----------------|-------------------|
-| Main Agent | `restrict_to_workspace` ✅ |
-| Subagent / Spawn | Inherits same restriction ✅ |
-| Heartbeat tasks | Inherits same restriction ✅ |
+| Agente Principal | `restrict_to_workspace` ✅ |
+| Subagente / Spawn | Herda a mesma restrição ✅ |
+| Tarefas Heartbeat | Herda a mesma restrição ✅ |
 
-All paths share the same workspace restriction — there's no way to bypass the security boundary through subagents or scheduled tasks.
+Todos os caminhos compartilham a mesma restrição de workspace — não há como contornar a fronteira de segurança através de subagentes ou tarefas agendadas.
 
-### Heartbeat (Periodic Tasks)
+### Heartbeat (Tarefas Periódicas)
 
-PicoClaw can perform periodic tasks automatically. Create a `HEARTBEAT.md` file in your workspace:
-
-```markdown
-# Periodic Tasks
-
-- Check my email for important messages
-- Review my calendar for upcoming events
-- Check the weather forecast
-```
-
-The agent will read this file every 30 minutes (configurable) and execute any tasks using available tools.
-
-#### Async Tasks with Spawn
-
-For long-running tasks (web search, API calls), use the `spawn` tool to create a **subagent**:
+PicoClaw pode executar tarefas periódicas automaticamente. Crie um arquivo `HEARTBEAT.md` no seu workspace:
 
 ```markdown
-# Periodic Tasks
+# Tarefas Periódicas
 
-## Quick Tasks (respond directly)
-- Report current time
-
-## Long Tasks (use spawn for async)
-- Search the web for AI news and summarize
-- Check email and report important messages
+- Verificar meu e-mail para mensagens importantes
+- Revisar meu calendário para eventos próximos
+- Verificar a previsão do tempo
 ```
 
-**Key behaviors:**
+O agente lerá este arquivo a cada 30 minutos (configurável) e executará quaisquer tarefas usando as ferramentas disponíveis.
 
-| Feature | Description |
+#### Tarefas Assíncronas com Spawn
+
+Para tarefas de longa duração (busca web, chamadas de API), use a ferramenta `spawn` para criar um **subagente**:
+
+```markdown
+# Tarefas Periódicas
+
+## Tarefas Rápidas (responder diretamente)
+- Reportar hora atual
+
+## Tarefas Longas (usar spawn para async)
+- Buscar na web por notícias de IA e resumir
+- Verificar e-mail e reportar mensagens importantes
+```
+
+**Comportamentos principais:**
+
+| Recurso | Descrição |
 |---------|-------------|
-| **spawn** | Creates async subagent, doesn't block heartbeat |
-| **Independent context** | Subagent has its own context, no session history |
-| **message tool** | Subagent communicates with user directly via message tool |
-| **Non-blocking** | After spawning, heartbeat continues to next task |
+| **spawn** | Cria subagente assíncrono, não bloqueia heartbeat |
+| **Contexto independente** | Subagente tem seu próprio contexto, sem histórico de sessão |
+| **ferramenta message** | Subagente se comunica com o usuário diretamente via ferramenta message |
+| **Não-bloqueante** | Após spawning, heartbeat continua para a próxima tarefa |
 
-#### How Subagent Communication Works
+#### Como Funciona a Comunicação do Subagente
 
 ```
-Heartbeat triggers
+Heartbeat dispara
     ↓
-Agent reads HEARTBEAT.md
+Agente lê HEARTBEAT.md
     ↓
-For long task: spawn subagent
+Para tarefa longa: spawn subagente
     ↓                           ↓
-Continue to next task      Subagent works independently
+Continua para próxima tarefa   Subagente trabalha independentemente
     ↓                           ↓
-All tasks done            Subagent uses "message" tool
+Todas as tarefas concluídas    Subagente usa ferramenta "message"
     ↓                           ↓
-Respond HEARTBEAT_OK      User receives result directly
+Responde HEARTBEAT_OK          Usuário recebe resultado diretamente
 ```
 
-The subagent has access to tools (message, web_search, etc.) and can communicate with the user independently without going through the main agent.
+O subagente tem acesso a ferramentas (message, web_search, etc.) e pode se comunicar com o usuário independentemente sem passar pelo agente principal.
 
-**Configuration:**
+**Configuração:**
 
 ```json
 {
@@ -637,39 +624,39 @@ The subagent has access to tools (message, web_search, etc.) and can communicate
 }
 ```
 
-| Option | Default | Description |
+| Opção | Padrão | Descrição |
 |--------|---------|-------------|
-| `enabled` | `true` | Enable/disable heartbeat |
-| `interval` | `30` | Check interval in minutes (min: 5) |
+| `enabled` | `true` | Habilitar/desabilitar heartbeat |
+| `interval` | `30` | Intervalo de verificação em minutos (mín: 5) |
 
-**Environment variables:**
+**Variáveis de ambiente:**
 
-* `PICOCLAW_HEARTBEAT_ENABLED=false` to disable
-* `PICOCLAW_HEARTBEAT_INTERVAL=60` to change interval
+* `PICOCLAW_HEARTBEAT_ENABLED=false` para desabilitar
+* `PICOCLAW_HEARTBEAT_INTERVAL=60` para mudar o intervalo
 
-### Providers
+### Provedores
 
 > [!NOTE]
-> Groq provides free voice transcription via Whisper. If configured, Telegram voice messages will be automatically transcribed.
+> Groq fornece transcrição de voz gratuita via Whisper. Se configurado, mensagens de voz do Telegram serão automaticamente transcritas.
 
-| Provider                   | Purpose                                 | Get API Key                                            |
+| Provedor                   | Propósito                               | Obter Chave de API                                     |
 | -------------------------- | --------------------------------------- | ------------------------------------------------------ |
-| `gemini`                   | LLM (Gemini direct)                     | [aistudio.google.com](https://aistudio.google.com)     |
-| `zhipu`                    | LLM (Zhipu direct)                      | [bigmodel.cn](bigmodel.cn)                             |
-| `openrouter(To be tested)` | LLM (recommended, access to all models) | [openrouter.ai](https://openrouter.ai)                 |
-| `anthropic(To be tested)`  | LLM (Claude direct)                     | [console.anthropic.com](https://console.anthropic.com) |
-| `openai(To be tested)`     | LLM (GPT direct)                        | [platform.openai.com](https://platform.openai.com)     |
-| `deepseek(To be tested)`   | LLM (DeepSeek direct)                   | [platform.deepseek.com](https://platform.deepseek.com) |
-| `groq`                     | LLM + **Voice transcription** (Whisper) | [console.groq.com](https://console.groq.com)           |
+| `gemini`                   | LLM (Gemini direto)                     | [aistudio.google.com](https://aistudio.google.com)     |
+| `zhipu`                    | LLM (Zhipu direto)                      | [bigmodel.cn](bigmodel.cn)                             |
+| `openrouter(A ser testado)` | LLM (recomendado, acesso a todos os modelos) | [openrouter.ai](https://openrouter.ai)                 |
+| `anthropic(A ser testado)`  | LLM (Claude direto)                     | [console.anthropic.com](https://console.anthropic.com) |
+| `openai(A ser testado)`     | LLM (GPT direto)                        | [platform.openai.com](https://platform.openai.com)     |
+| `deepseek(A ser testado)`   | LLM (DeepSeek direto)                   | [platform.deepseek.com](https://platform.deepseek.com) |
+| `groq`                     | LLM + **Transcrição de voz** (Whisper) | [console.groq.com](https://console.groq.com)           |
 
 <details>
 <summary><b>Zhipu</b></summary>
 
-**1. Get API key and base URL**
+**1. Obter chave de API e URL base**
 
-* Get [API key](https://bigmodel.cn/usercenter/proj-mgmt/apikeys)
+* Obtenha [chave de API](https://bigmodel.cn/usercenter/proj-mgmt/apikeys)
 
-**2. Configure**
+**2. Configurar**
 
 ```json
 {
@@ -684,23 +671,23 @@ The subagent has access to tools (message, web_search, etc.) and can communicate
   },
   "providers": {
     "zhipu": {
-      "api_key": "Your API Key",
+      "api_key": "Sua Chave de API",
       "api_base": "https://open.bigmodel.cn/api/paas/v4"
     }
   }
 }
 ```
 
-**3. Run**
+**3. Executar**
 
 ```bash
-picoclaw agent -m "Hello"
+picoclaw agent -m "Olá"
 ```
 
 </details>
 
 <details>
-<summary><b>Full config example</b></summary>
+<summary><b>Exemplo de configuração completa</b></summary>
 
 ```json
 {
@@ -768,54 +755,54 @@ picoclaw agent -m "Hello"
 
 </details>
 
-## CLI Reference
+## Referência CLI
 
-| Command                   | Description                   |
+| Comando                   | Descrição                     |
 | ------------------------- | ----------------------------- |
-| `picoclaw onboard`        | Initialize config & workspace |
-| `picoclaw agent -m "..."` | Chat with the agent           |
-| `picoclaw agent`          | Interactive chat mode         |
-| `picoclaw gateway`        | Start the gateway             |
-| `picoclaw status`         | Show status                   |
-| `picoclaw cron list`      | List all scheduled jobs       |
-| `picoclaw cron add ...`   | Add a scheduled job           |
+| `picoclaw onboard`        | Inicializar config e workspace |
+| `picoclaw agent -m "..."` | Conversar com o agente        |
+| `picoclaw agent`          | Modo de chat interativo       |
+| `picoclaw gateway`        | Iniciar o gateway             |
+| `picoclaw status`         | Mostrar status                |
+| `picoclaw cron list`      | Listar todas as tarefas agendadas |
+| `picoclaw cron add ...`   | Adicionar uma tarefa agendada |
 
-### Scheduled Tasks / Reminders
+### Tarefas Agendadas / Lembretes
 
-PicoClaw supports scheduled reminders and recurring tasks through the `cron` tool:
+PicoClaw suporta lembretes agendados e tarefas recorrentes através da ferramenta `cron`:
 
-* **One-time reminders**: "Remind me in 10 minutes" → triggers once after 10min
-* **Recurring tasks**: "Remind me every 2 hours" → triggers every 2 hours
-* **Cron expressions**: "Remind me at 9am daily" → uses cron expression
+* **Lembretes únicos**: "Me lembre em 10 minutos" → dispara uma vez após 10min
+* **Tarefas recorrentes**: "Me lembre a cada 2 horas" → dispara a cada 2 horas
+* **Expressões cron**: "Me lembre às 9h diariamente" → usa expressão cron
 
-Jobs are stored in `~/.picoclaw/workspace/cron/` and processed automatically.
+Tarefas são armazenadas em `~/.picoclaw/workspace/cron/` e processadas automaticamente.
 
-## 🤝 Contribute & Roadmap
+## 🤝 Contribuir & Roadmap
 
-PRs welcome! The codebase is intentionally small and readable. 🤗
+PRs são bem-vindos! A base de código é intencionalmente pequena e legível. 🤗
 
-Roadmap coming soon...
+Roadmap em breve...
 
-Developer group building, Entry Requirement: At least 1 Merged PR.
+Grupo de desenvolvedores em construção, Requisito de Entrada: Pelo menos 1 PR Merged.
 
-User Groups:
+Grupos de Usuários:
 
-discord:  <https://discord.gg/V4sAZ9XWpN>
+discord: <https://discord.gg/V4sAZ9XWpN>
 
 <img src="assets/wechat.png" alt="PicoClaw" width="512">
 
-## 🐛 Troubleshooting
+## 🐛 Solução de Problemas
 
-### Web search says "API 配置问题"
+### Busca web diz "API 配置 problema"
 
-This is normal if you haven't configured a search API key yet. PicoClaw will provide helpful links for manual searching.
+Isso é normal se você ainda não configurou uma chave de API de busca. PicoClaw fornecerá links úteis para busca manual.
 
-To enable web search:
+Para habilitar busca web:
 
-1. **Option 1 (Recommended)**: Get a free API key at [https://brave.com/search/api](https://brave.com/search/api) (2000 free queries/month) for the best results.
-2. **Option 2 (No Credit Card)**: If you don't have a key, we automatically fall back to **DuckDuckGo** (no key required).
+1. **Opção 1 (Recomendado)**: Obtenha uma chave de API gratuita em [https://brave.com/search/api](https://brave.com/search/api) (2000 consultas grátis/mês) para os melhores resultados.
+2. **Opção 2 (Sem Cartão de Crédito)**: Se você não tem uma chave, automaticamente fazemos fallback para **DuckDuckGo** (nenhuma chave necessária).
 
-Add the key to `~/.picoclaw/config.json` if using Brave:
+Adicione a chave a `~/.picoclaw/config.json` se estiver usando Brave:
 
 ```json
 {
@@ -823,7 +810,7 @@ Add the key to `~/.picoclaw/config.json` if using Brave:
     "web": {
       "brave": {
         "enabled": false,
-        "api_key": "YOUR_BRAVE_API_KEY",
+        "api_key": "SUA_CHAVE_API_BRAVE",
         "max_results": 5
       },
       "duckduckgo": {
@@ -835,21 +822,13 @@ Add the key to `~/.picoclaw/config.json` if using Brave:
 }
 ```
 
-### Getting content filtering errors
+### Recebendo erros de filtragem de conteúdo
 
-Some providers (like Zhipu) have content filtering. Try rephrasing your query or use a different model.
+Alguns provedores (como Zhipu) têm filtragem de conteúdo. Tente reformular sua consulta ou use um modelo diferente.
 
-### Telegram bot says "Conflict: terminated by other getUpdates"
+### Bot do Telegram diz "Conflict: terminated by other getUpdates"
 
-This happens when another instance of the bot is running. Make sure only one `picoclaw gateway` is running at a time.
+Isso acontece quando outra instância do bot está rodando. Certifique-se de que apenas um `picoclaw gateway` está rodando por vez.
 
 ---
 
-## 📝 API Key Comparison
-
-| Service          | Free Tier           | Use Case                              |
-| ---------------- | ------------------- | ------------------------------------- |
-| **OpenRouter**   | 200K tokens/month   | Multiple models (Claude, GPT-4, etc.) |
-| **Zhipu**        | 200K tokens/month   | Best for Chinese users                |
-| **Brave Search** | 2000 queries/month  | Web search functionality              |
-| **Groq**         | Free tier available | Fast inference (Llama, Mixtral)       |
